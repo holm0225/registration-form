@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Contact form</title>
+  <title>Registration Form</title>
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -13,12 +13,18 @@
 
   <section class="contact pad-t-2 pad-b-2">
     <div class="max-length">
-      <h1>Send us a sweet little note</h1>
+      <h1>Want to go to Mars?</h1>
+
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
       <form class="push-0" method="POST" action="https://formspree.io/holm0225@algonquincollege.com">
         <div class="push">
           <label for="name">Name</label>
           <input id="name" name="name" required>
+        </div>
+        <div class="push">
+          <label for="age">Your age</label>
+          <input id="age" type="number" name="age" required>
         </div>
         <div class="push">
           <label for="email">Your email</label>
@@ -31,6 +37,10 @@
             <option>General question</option>
             <option>Just to talk</option>
           </select>
+        </div>
+        <div class="push">
+          <label for="address">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
         </div>
         <div class="push">
           <label for="details">What's up?</label>
